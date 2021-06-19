@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emoticon Shop</title>
+    <style>
+      body {
+        width: 100%;
+        margin: 0px;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+      .header_column {
+        padding: 5px 10px;
+      }
+      .header_column_span {
+        font-weight: 500;
+      }
+      .fa-volume-mute {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      footer {
+        background-color: rgb(248, 248, 247);
+        width: 100%;
+      }
+      .footer_header {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        font-size: 30px;
+      }
+      .footer_header_button {
+        position: absolute;
+        left: 30px;
+        border: none;
+        height: 30px;
+        width: 50px;
+        font-size: 30px;
+        background-color: rgb(248, 247, 247);
+      }
+      .footer_header_button #big {
+        border: 3px solid black;
+        width: 200px;
+      }
+      .bigimg {
+        padding: 10px 30px;
+        display: flex;
+      }
+      .big {
+        width: 200px;
+        height: 200px;
+      }
+      .bigimg_column_up {
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30px;
+      }
+      .bigimg_column_middle {
+        margin-left: 30px;
+        margin-bottom: 20px;
+      }
+      .bigimg_column_down {
+        margin-top: 50px;
+        margin-left: 30px;
+      }
+      .bigimg_column_down_btn {
+        font-size: 20px;
+      }
+      .smallimg_header {
+        display: flex;
+        justify-content: center;
+      }
+      .smallimg_header_circle {
+        border-radius: 50%;
+        background-color: rgb(201, 201, 201);
+        height: 5px;
+        width: 5px;
+        margin: 10px;
+      }
+      .smallimg_header_circle:first-child {
+        background-color: rgb(95, 93, 93);
+      }
+      .smallimg_img_1 {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px;
+      }
+      .smallimg_img_2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px;
+      }
+      .smallimg_img_3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px;
+      }
+      .smallimg_img_4 {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px;
+      }
+      .lastline {
+        background-color: rgb(156, 156, 158);
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+      }
+      button {
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_column">
+        <span class="header_column_span">KT</span>
+        <span class="header_column_span js-clock"
+          ><h1></h1>
+          ></span
+        >
+      </div>
+      <div class="header_column">
+        <i class="fab fa-bluetooth-b"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </header>
+    <footer>
+      <div class="footer_header">
+        <button class="footer_header_button">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <span>이모티콘샵</span>
+        <i class="fab fa-shopify"></i>
+      </div>
+      <div class="bigimg">
+        <div class="bigimg_column bim">
+          <img class="big" src="ninab/03.png" />
+        </div>
+        <div class="bigimg_column">
+          <div class="bigimg_column_up">
+            <span>니나브 콘</span>
+          </div>
+          <div class="bigimg_column_middle">
+            <span>가격: 1000원</span>
+          </div>
+          <div class="bigimg_column_down">
+            <button class="bigimg_column_down_btn">구매하기</button>
+          </div>
+        </div>
+      </div>
+      <div class="smallimg">
+        <div class="smallimg_header">
+          <div class="smallimg_header_circle"></div>
+          <div class="smallimg_header_circle"></div>
+          <div class="smallimg_header_circle"></div>
+        </div>
+        <form class="smallimg_img js-imgform">
+          <div class="smallimg_img_1">
+            <div>
+              <button><img class="smg" src="ninab/03.png" /></button>
+            </div>
+            <div>
+              <button><img class="smg" src="ninab/01.png" /></button>
+            </div>
+            <div>
+              <button><img class="smg" src="ninab/02.png" /></button>
+            </div>
+            <div>
+              <button><img class="smg" src="ninab/04.png" /></button>
+            </div>
+          </div>
+          <div class="smallimg_img_2">
+            <div>
+              <button><img class="smg" src="ninab/05.png" /></button>
+            </div>
+            <div>
+              <button><img class="smg" src="ninab/17.png" /></button>
+            </div>
+            <div>
+              <button><img class="smg" src="ninab/07.png" /></button>
+            </div>
+            <div>
+              <button><img class="smg" src="ninab/08.png" /></button>
+            </div>
+          </div>
+          <div class="smallimg_img_3">
+            <div>
+              <button><img class="smg" src="ninab/09.png" /></button>
+            </div>
+            <div>
+              <button><img class="smg" src="ninab/10.png" /></button>
+            </div>
+            <div>
+              <button><img class="smg" src="ninab/11.png" /></button>
+            </div>
+            <div>
+              <button><img class="smg" src="ninab/18.png" /></button>
+            </div>
+          </div>
+          <div class="smallimg_img_4">
+            <div>
+              <button><img class="smg" src="ninab/13.png" /></button>
+            </div>
+            <div>
+              <button><img class="smg" src="ninab/14.png" /></button>
+            </div>
+            <div>
+              <button><img class="smg" src="ninab/15.png" /></button>
+            </div>
+            <div>
+              <button><img class="smg" src="ninab/16.png" /></button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="lastline">
+        <div><i class="fas fa-bars"></i></div>
+        <div><i class="fas fa-home"></i></div>
+        <div><i class="fas fa-undo-alt"></i></div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="clock.js"></script>
+    <script src="imgbtn.js"></script>
+  </body>
+</html>
